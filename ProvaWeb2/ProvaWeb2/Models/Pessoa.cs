@@ -10,8 +10,8 @@ namespace ProvaWeb2.Models
     {
         [Key]
         public int Codigo { get; set; }
-        public String Nome { get; set; }
-        public String Sexo { get; set; }
+        public string Nome { get; set; }
+        public string Sexo { get; set; }
         public string Endereco { get; set; }
         public int DataNasc { get; set; }
         public int CarteraTrab { get; set; }
